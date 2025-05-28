@@ -13,10 +13,11 @@ export const auth = defineAuth({
         scopes: ['profile','email']
       },
       callbackUrls: [
+        'https://main.d1ciwlz9fphpd9.amplifyapp.com/',
         'http://localhost:5173/',
         'https://mywebsite.com/profile'
       ],
-      logoutUrls: ['http://localhost:3000/', 'https://mywebsite.com'],
+      logoutUrls: ['https://main.d1ciwlz9fphpd9.amplifyapp.com/','http://localhost:3000/', 'https://mywebsite.com'],
     }
   }
 });
